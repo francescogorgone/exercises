@@ -157,3 +157,21 @@ print(user1)
 print(listautenti)
 
 #Modulo statistico
+
+#Calcola la percentuale di maschi e femmine
+
+male_count = sum(user["Gender"] == "male" for user in listautenti)
+
+female_count = sum(user["Gender"] == "female" for user in listautenti)
+
+total_users = len(listautenti)
+
+male_percentage = (male_count / total_users) * 100
+female_percentage = (female_count / total_users) * 100
+
+print(f"Percentage of males: {male_percentage}%")
+
+print(f"Percentage of females: {female_percentage}%")
+
+#Calcola età massima, minima e media
+
