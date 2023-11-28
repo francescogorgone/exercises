@@ -175,3 +175,13 @@ print(f"Percentage of females: {female_percentage}%")
 
 #Calcola età massima, minima e media
 
+ages = [user["Age"] for user in listautenti]
+
+max_age = max(ages)
+min_age = min(ages)
+avg_age = sum(ages) / total_users
+
+print(f"Maximum age: {max_age}")
+print(f"Minimum age: {min_age}")
+print(f"Average age: {avg_age}")
+
