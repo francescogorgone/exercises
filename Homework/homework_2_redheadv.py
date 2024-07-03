@@ -10,10 +10,8 @@ quarto = input("E infine un quarto\n")
 
 somma = int(primo) + int(secondo) + int(terzo) + int(quarto)
 
-print("Hai scelto questi numeri:")
-print(primo, secondo, terzo, quarto)
-print("Ecco la tua somma:")
-print(somma)
+print("Hai scelto questi numeri:" , primo, secondo, terzo, quarto)
+print("Ecco la tua somma:" , somma)
 
 print("E se ora ti chiedessi un quinto numero?\n")
 
