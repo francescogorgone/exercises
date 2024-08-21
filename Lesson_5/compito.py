@@ -21,6 +21,7 @@
 
 nome = input ("Benvenuto, inserisci il tuo nome utente \n")
 
+#non è necessario scrivere l'if, basta capitalizzare direttamente
 if nome.isupper():
     print("Benvenuto", nome)
 else:
