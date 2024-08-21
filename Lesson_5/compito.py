@@ -32,9 +32,9 @@ numeri1 = input('Inserisci due numeri interi minori di 10, separati da virgola "
 
 numeri2 = input("Inserisci un terzo numero intero minore di 10 per favore \n")
 
-l = numeri1.split(",")
+l = numeri1.split(",") # "4,5" --> ["4", "5"]
 
-l.append(numeri2)
+l.append(numeri2) # ["4", "5", "9"]
 
 print("Il primo numero è: ", l[0])
 print("Il secondo numero è: ", l[1])
