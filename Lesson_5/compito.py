@@ -40,7 +40,10 @@ print("Il primo numero è: ", l[0])
 print("Il secondo numero è: ", l[1])
 print("Il terzo numero è: ", l[2])
 
-media = ((int(l[0]) + int(l[1]) + int(l[2])) / 3)
+media = ((int(l[0]) + int(l[1]) + int(l[2])) / 3) #meglio scrivere così che sum(lista) / 3 perché se la lista non fosse composta da tre
+#elementi il denominatore sarebbe sbagliato, quindi non è scritta in modo generale.
+#il modo corretto sarebbe stato sum(lista) / len(lista)
+#oppure direttamente la funzione per fare la media mean(lista)
 
 print("La media dei tre valori da te forniti è: ", media)
 
