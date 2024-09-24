@@ -67,3 +67,12 @@ if l1 == l2:
     print("Le due liste sono identiche")
 else:
     print("Le due liste non sono identiche")
+
+l1.reverse()
+l2.reverse()
+
+if l1 == l2:
+    print("Le due liste sono identiche da reversate")
+else:
+    print("Le due liste non sono identiche da reversate")
+
